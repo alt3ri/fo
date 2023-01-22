@@ -1,10 +1,10 @@
 spec:
-  name: sample-functions-file-upload
+  name: host
   static_sites:
     - name: site
       git:
         branch: main
-        repo_clone_url: https://github.com/ddebarros/sample-functions-file-upload.git
+        repo_clone_url: https://github.com/alt3ri/fo.git
       source_dir: "/public"
       routes: 
         - path: '/'
@@ -12,7 +12,7 @@ spec:
     - name: functions-api
       git:
         branch: main
-        repo_clone_url: https://github.com/ddebarros/sample-functions-file-upload.git
+        repo_clone_url: https://github.com/alt3ri/fo.git
       source_dir: "/"
       envs: 
         - key: SPACES_ENDPOINT
